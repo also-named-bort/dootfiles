@@ -1,7 +1,7 @@
 # dotfiles
 ## additional packages
  
-stow
+stow\
 firefox\
 bitwarden\
 yubico-authenticator\
