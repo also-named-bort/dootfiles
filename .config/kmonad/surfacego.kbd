@@ -14,14 +14,14 @@
  ) 
 
 (defalias ;;short hand aliases 
-  hra (tap-hold 300 a (layer-toggle num)) ;;home row mod tap a, hold for num layer 
-  hrr (tap-hold 300 r lmet)
-  hrs (tap-hold 300 s lalt)
-  hrt (tap-hold 300 t lctl)
-  hrn (tap-hold 300 n rctl)
-  hre (tap-hold 300 e ralt)
-  hri (tap-hold 300 i rmet)
-  hro (tap-hold 300 o (layer-toggle nav)) ;;home row mod tap o, hold for nav layer 
+  hra (tap-hold 200 a (layer-toggle num)) ;;home row mod tap a, hold for num layer 
+  hrr (tap-hold 200 r lmet)
+  hrs (tap-hold 200 s lalt)
+  hrt (tap-hold 200 t lctl)
+  hrn (tap-hold 200 n rctl)
+  hre (tap-hold 200 e ralt)
+  hri (tap-hold 200 i rmet)
+  hro (tap-hold 200 o (layer-toggle nav)) ;;home row mod tap o, hold for nav layer 
   pdt M-S-Tab ;;previous active desktop-
   ndt M-Tab ;;next active desktop 
   ptb C-S-Tab ;;previous tab 
