@@ -10,12 +10,16 @@ italic = { family = "FiraCode Nerd Font" }
 size = 11
 
 [window]
-padding.x = 14
-padding.y = 14
+padding.x = 10
+padding.y = 10
 decorations = "None"
+
+[cursor]
+style.shape = "beam"
 
 [keyboard]
 bindings = [
 { key = "Insert", mods = "Shift", action = "Paste" },
-{ key = "Insert", mods = "Control", action = "Copy" }
+{ key = "Insert", mods = "Control", action = "Copy" },
+{ key = "Space", mods = "Control", action = "ToggleViMode" }
 ]
