@@ -5,6 +5,7 @@ stow\
 firefox\
 bitwarden\
 yubico-authenticator\
+pcsclite\
 tailscale\
 vlc\
 [impala](https://github.com/pythops/impala)\
