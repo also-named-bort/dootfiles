@@ -13,7 +13,8 @@ vlc\
 jellyfin-media-player\
 jellyfin-ffmpeg\
 [wl-kbptr](https://github.com/moverest/wl-kbptr)\
-[kmonad](https://github.com/kmonad/kmonad?tab=readme-ov-file)
+[kmonad](https://github.com/kmonad/kmonad?tab=readme-ov-file)\
+[caligula](https://github.com/ifd3f/caligula)
  
 ## App specific setup
  
