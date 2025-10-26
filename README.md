@@ -1,6 +1,6 @@
 # dotfiles
 ## additional packages
- 
+### AUR
 stow\
 firefox\
 bitwarden\
@@ -15,7 +15,7 @@ jellyfin-ffmpeg\
 [wl-kbptr](https://github.com/moverest/wl-kbptr)\
 [kmonad](https://github.com/kmonad/kmonad?tab=readme-ov-file)
 
-
+### Individual
 [caligula](https://github.com/ifd3f/caligula)\
 [waybar-configurator](https://github.com/veitorman/Waybar-Configurator-GUI)
  
