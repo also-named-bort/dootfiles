@@ -1,18 +1,19 @@
 # dotfiles
 ## additional packages
-### AUR
+### * requires AUR
 stow\
 firefox\
 bitwarden\
-yubico-authenticator\
-pcsclite\
+yubico-authenticator*\
+pcsclite*\
+nextcloud-client\
 tailscale\
 vlc\
 [impala](https://github.com/pythops/impala)\
 [bluetui](https://github.com/pythops/bluetui)\
-jellyfin-media-player\
+jellyfin-media-player*\
 jellyfin-ffmpeg\
-[wl-kbptr](https://github.com/moverest/wl-kbptr)\
+[wl-kbptr*](https://github.com/moverest/wl-kbptr)\
 [kmonad](https://github.com/kmonad/kmonad?tab=readme-ov-file)
 
 ### Individual
