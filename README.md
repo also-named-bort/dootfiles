@@ -4,7 +4,7 @@
 stow\
 firefox\
 bitwarden\
-yubico-authenticator*\
+yubico-authenticator-bin*\
 pcsclite*\
 nextcloud-client\
 tailscale\
