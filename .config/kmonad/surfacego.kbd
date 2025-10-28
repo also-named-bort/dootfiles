@@ -18,6 +18,8 @@
   hrr (tap-hold 200 r lmet)
   hrs (tap-hold 200 s lalt)
   hrt (tap-hold 200 t lctl)
+  hrg (tap-hold 200 g lsft)
+  hrm (tap-hold 200 m rsft)
   hrn (tap-hold 200 n rctl)
   hre (tap-hold 200 e ralt)
   hri (tap-hold 200 i rmet)
@@ -31,7 +33,7 @@
 (deflayer base ;;standard colemak dh ortho layout on col-staggered 
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc 
   tab  q    w    f    p    b    j    l    u    y    '    [    ]    \ 
-  esc  @hra @hrr @hrs @hrt g    m    @hrn @hre @hri @hro ;    ret 
+  esc  @hra @hrr @hrs @hrt @hrg @hrm @hrn @hre @hri @hro ;    ret 
   lsft z    x    c    d    v    k    h    ,    .    /    rsft 
   lctl lmet lalt           spc                 ralt 
 ) 
