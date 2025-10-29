@@ -1,0 +1,49 @@
+(defcfg 
+  input  (device-file "/dev/input/by-id/usb-Microsoft_Surface_Keyboard-event-kbd") 
+  output (uinput-sink "KMonad output") 
+  fallthrough true 
+  allow-cmd true 
+) 
+
+(defsrc ;;source keys for surface go keyboard. omitting arrow keys for fallthrough 
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc 
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \ 
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret 
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft 
+  lctl lmet lalt           spc                 ralt 
+ ) 
+
+(defalias ;;short hand aliases 
+  hra (tap-hold 200 a lsft)
+  hrr (tap-hold 200 r lmet)
+  hrs (tap-hold 200 s lalt)
+  hrt (tap-hold 200 t lctl)
+  hrn (tap-hold 200 n rctl)
+  hre (tap-hold 200 e ralt)
+  hri (tap-hold 200 i rmet)
+  hro (tap-hold 200 o rsft)
+  spn (tap-hold 200 spc (layer-toggle nav))
+  hr4 (tap-hold 200 4 rctl)
+  hr5 (tap-hold 200 5 ralt)
+  hr6 (tap-hold 200 6 rmet)
+  pdt M-S-Tab ;;previous active desktop-
+  ndt M-Tab ;;next active desktop 
+  ptb C-S-Tab ;;previous tab 
+  ntb C-Tab ;;next tab 
+)
+ 
+(deflayer base ;;standard colemak dh ortho layout on col-staggered 
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc 
+  tab  q    w    f    p    b    j    l    u    y    '    [    ]    \ 
+  esc  @hra @hrr @hrs @hrt g    m    @hrn @hre @hri @hro ;    ret 
+  lsft z    x    c    d    v    k    h    ,    .    /    rsft 
+  lctl lmet lalt           spc                 ralt 
+) 
+
+(deflayer nav ;;layer for navigation 
+  XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX  
+  XX   home pgdn pgup end  XX   +    7    8    9    *    XX   XX   XX  
+  bspc lft  down up   rght tab  .    4    5    6    0    XX   XX      
+  _    @pdt @ndt @ptb @ntb XX   -    1    2    3    /    XX           
+  _    _    _              XX                  _                      
+) 
