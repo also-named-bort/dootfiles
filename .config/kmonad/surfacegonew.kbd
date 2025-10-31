@@ -26,6 +26,7 @@
   hr4 (tap-hold 200 4 rctl)
   hr5 (tap-hold 200 5 ralt)
   hr6 (tap-hold 200 6 rmet)
+  hr0 (tap-hold 200 0 rsft)
   pdt M-S-Tab ;;previous active desktop
   ndt M-Tab ;;next active desktop
   ptb C-S-Tab ;;previous tab
@@ -37,13 +38,13 @@
   tab  q    w    f    p    b    j    l    u    y    '    [    ]    \
   esc  @hra @hrr @hrs @hrt g    m    @hrn @hre @hri @hro ;    ret
   lsft z    x    c    d    v    k    h    ,    .    /    rsft
-  lctl lmet lalt           spc                 ralt
+  lctl lmet lalt           @spn                ralt
 )
 
 (deflayer nav ;;layer for navigation 
   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX
   XX   home pgdn pgup end  XX   +    7    8    9    *    XX   XX   XX
-  bspc lft  down up   rght tab  .    @hr4 @hr5 @hr6 0    XX   XX
+  bspc lft  down up   rght tab  .    @hr4 @hr5 @hr6 @hr0 del  XX
   _    @pdt @ndt @ptb @ntb XX   -    1    2    3    /    XX
   _    _    _              XX                  _
 )
