@@ -1,83 +1,8 @@
-@import "../omarchy/current/theme/waybar.css";
 
-* {
-  background-color: @background;
-  color: @foreground;
-
-  border: none;
-  border-radius: 10px;
-  min-height: 0;
-  font-family: 'BitstromWera Nerd Font';
-  font-size: 12px;
-}
-
-.modules-left {
-  margin-left: 3px;
-}
-
-.modules-right {
-  margin-right: 3px;
-}
-
-#workspaces button {
-  all: initial;
-  padding: 0 3px;
-  margin: 0 1.5px;
-  min-width: 9px;
-}
-
-#workspaces button.empty {
-  opacity: 0.5;
-}
-
-#cpu,
-#battery,
-#pulseaudio,
-#custom-omarchy,
-#custom-screenrecording-indicator,
-#custom-update {
-  min-width: 12px;
-  margin: 0 7.5px;
-}
-
-#tray {
-  margin-right: 16px;
-}
-
-#bluetooth {
-  margin-right: 17px;
-}
-
-#network {
-  margin-right: 13px;
-}
-
-#custom-expand-icon {
-  margin-right: 20px;
-}
-
-tooltip {
-  padding: 2px;
-}
-
-#custom-update {
-  font-size: 10px;
-}
-
-#clock {
-  margin-left: 8.75px;
-}
-
-.hidden {
-  opacity: 0;
-}
-
-#custom-screenrecording-indicator {
-  min-width: 12px;
-  margin-left: 8.75px;
-  font-size: 10px;
-}
-
-#custom-screenrecording-indicator.active {
-  color: #a55555;
+#waybar { background-color: rgba(0,0,0,0.0); color: #e0e0e0; }
+#workspaces { background-color: rgba(17,24,39,0.85); border-radius: 14px; }
+#workspaces button { background-color: rgba(17,24,39,0.85); border-radius: 6px; color: #e8e8e8; }
+#workspaces button.active { background-color: rgba(2,89,57,0.95); border-radius: 6px; color: #ffffff; }
+#clock,#battery,#cpu,#memory,#disk,#temperature,#backlight,#network,#pulseaudio,#wireplumber,#custom-media,#mode,#idle_inhibitor,#mpd,#bluetooth,#custom-spotify,#custom-weather,#custom-screenshot_t,#custom-power,#tray,#custom-storage {
+  background-color: rgba(17,24,39,0.85); border-radius: 14px; color: #e0e0e0;
 }
