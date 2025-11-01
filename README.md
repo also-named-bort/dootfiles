@@ -12,13 +12,11 @@ vlc\
 [impala](https://github.com/pythops/impala)\
 [bluetui](https://github.com/pythops/bluetui)\
 jellyfin-media-player*\
+jellyfin-tui*
 jellyfin-ffmpeg\
 [wl-kbptr*](https://github.com/moverest/wl-kbptr)\
 [kmonad](https://github.com/kmonad/kmonad?tab=readme-ov-file)
-
-### Individual
 [caligula](https://github.com/ifd3f/caligula)\
-[waybar-configurator](https://github.com/veitorman/Waybar-Configurator-GUI)
  
 ## App specific setup
  
@@ -37,11 +35,7 @@ sudo usermod -aG uinput username
 ```
  
 ```shell
-sudo touch /lib/udev/rules.d/99-kmonad.rules
-```
- 
-```shell
-sudo echo "KERNEL=="uinput", MODE="0660", GROUP="uinput", OPTIONS+="static_node=uinput"">>/lib/udev/rules.d/99-kmonad.rules
+sudo cp ~/99-kmonad.rules /lib/udev/rules.d/
 ```
 
  
