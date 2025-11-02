@@ -4,19 +4,19 @@
 stow\
 firefox\
 bitwarden\
-yubico-authenticator-bin*\
-pcsclite*\
 nextcloud-client\
 tailscale\
 vlc\
 [impala](https://github.com/pythops/impala)\
 [bluetui](https://github.com/pythops/bluetui)\
-jellyfin-media-player*\
-jellyfin-tui*
 jellyfin-ffmpeg\
-[wl-kbptr*](https://github.com/moverest/wl-kbptr)\
 [kmonad](https://github.com/kmonad/kmonad?tab=readme-ov-file)
 [caligula](https://github.com/ifd3f/caligula)\
+[wl-kbptr*](https://github.com/moverest/wl-kbptr)\
+yubico-authenticator-bin*\
+pcsclite*\
+jellyfin-media-player*\
+jellyfin-tui*
  
 ## App specific setup
  
