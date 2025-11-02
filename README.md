@@ -1,20 +1,18 @@
 # dotfiles
 ## additional packages
 ### * requires AUR
+### ** from walker->install->services
+tailscale**\
+bitwarden**\
 stow\
+[kmonad](https://github.com/kmonad/kmonad?tab=readme-ov-file)\
 firefox\
-bitwarden\
 nextcloud-client\
-tailscale\
 vlc\
-[impala](https://github.com/pythops/impala)\
 [bluetui](https://github.com/pythops/bluetui)\
 jellyfin-ffmpeg\
-[kmonad](https://github.com/kmonad/kmonad?tab=readme-ov-file)
-[caligula](https://github.com/ifd3f/caligula)\
 [wl-kbptr*](https://github.com/moverest/wl-kbptr)\
 yubico-authenticator-bin*\
-pcsclite*\
 jellyfin-media-player*\
 jellyfin-tui*
  
@@ -35,7 +33,7 @@ sudo usermod -aG uinput username
 ```
  
 ```shell
-sudo cp ~/99-kmonad.rules /lib/udev/rules.d/
+sudo cp ~/dootfiles/99-kmonad.rules /lib/udev/rules.d/
 ```
 
  
@@ -48,6 +46,7 @@ sudo pacman -S pcsclite
 ```shell
 sudo pacman -S ccid
 ```
+ 
 ```shell
 sudo systemctl enable pcscd.service
 ```
