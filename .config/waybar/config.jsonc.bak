@@ -4,15 +4,11 @@
   "position": "top",
   "spacing": 0,
   "height": 32,
-  "margin": 3,
-  "modules-left": [
-    "custom/omarchy", 
-    "hyprland/workspaces"
-  ],
-  "modules-center": [
-    "clock", 
-    "custom/update", 
-    "custom/screenrecording-indicator"],
+  "margin-top": 2,
+  "margin-left": 2,
+  "margin-right": 2,
+  "modules-left": ["custom/omarchy", "hyprland/workspaces"],
+  "modules-center": ["clock", "custom/update", "custom/screenrecording-indicator"],
   "modules-right": [
     "group/tray-expander",
     "bluetooth",
@@ -66,7 +62,7 @@
     "on-click": "$TERMINAL -e btop"
   },
   "clock": {
-    "format": "{:L%H:%M %A %d %B W%V}",
+    "format": "{:L%H:%M %a %d %b W%V}",
     "format-alt": "{:L%d %B W%V %Y}",
     "tooltip": false,
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
