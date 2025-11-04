@@ -10,10 +10,12 @@
     "hyprland/workspaces"
   ],
   "modules-center": [
-    "clock", 
-    "custom/update", 
-    "custom/screenrecording-indicator"],
+    "clock" 
+    //"custom/cava"
+  ],
   "modules-right": [
+    "custom/screenrecording-indicator",
+    "custom/update", 
     "group/tray-expander",
     "bluetooth",
     "network",
@@ -142,5 +144,9 @@
   "tray": {
     "icon-size": 12,
     "spacing": 17
-  }
+  },
+//  "custom/cava": {
+//    "format": "{}",
+//    "exec": "~/.config/waybar/cava.sh"
+//    }
 }
