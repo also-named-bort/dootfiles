@@ -14,8 +14,15 @@ jellyfin-ffmpeg\
 [wl-kbptr*](https://github.com/moverest/wl-kbptr)\
 yubico-authenticator-bin*\
 jellyfin-media-player*\
-jellyfin-tui*
- 
+jellyfin-tui*\
+[yazi](https://github.com/sxyazi/yazi)\
+
+```shell
+sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
+```
+
+```
+
 ## App specific setup
  
 ### kmonad permissions
