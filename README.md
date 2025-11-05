@@ -15,7 +15,7 @@ jellyfin-ffmpeg\
 yubico-authenticator-bin*\
 jellyfin-media-player*\
 jellyfin-tui*\
-[yazi](https://github.com/sxyazi/yazi)\
+[yazi](https://github.com/sxyazi/yazi)
 
 ```shell
 sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
