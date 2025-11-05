@@ -103,6 +103,3 @@ https://github.com/monoooki/omarchy-torrentz-hydra-theme.git
 ```shell
 https://github.com/leonardobetti/omarchy-tycho.git
 ```
-```shell
-https://github.com/hipsterusername/omarchy-waveform-dark-theme.git
-```
