@@ -2,6 +2,7 @@
 ## additional packages
 ### * requires AUR
 ### ** from walker->install->services
+### also using kitty
 tailscale**\
 bitwarden**\
 stow\
@@ -15,6 +16,7 @@ jellyfin-ffmpeg\
 yubico-authenticator-bin*\
 jellyfin-media-player*\
 jellyfin-tui*\
+[jrnl](https://jrnl.sh/en/stable/usage/)\
 [yazi](https://github.com/sxyazi/yazi)
 
 ```shell
