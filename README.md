@@ -1,69 +1,49 @@
-# dotfiles
+# dotfiles for omarchy
 ## additional packages
-### * requires AUR
 ### ** from walker->install->services
 ### also using kitty
-tailscale**\
-bitwarden**\
-stow\
-[kmonad](https://github.com/kmonad/kmonad?tab=readme-ov-file)\
-firefox\
-nextcloud-client\
-vlc\
-[bluetui](https://github.com/pythops/bluetui)\
-jellyfin-ffmpeg\
-[wl-kbptr*](https://github.com/moverest/wl-kbptr)\
-yubico-authenticator-bin*\
-jellyfin-media-player*\
-jellyfin-tui*\
-[jrnl](https://jrnl.sh/en/stable/usage/)\
-[yazi](https://github.com/sxyazi/yazi)
-
-```shell
-sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
-```
-
-
-## App specific setup
- 
-### kmonad permissions
- 
+[tailscale**](https://github.com/tailscale/tailscale)\
+[bitwarden**](https://github.com/bitwarden/clients)\
+[stow](https://www.gnu.org/software/stow/)\
+[kmonad (see below)](https://github.com/kmonad/kmonad?tab=readme-ov-file)\
 ```shell
 sudo groupadd --system uinput
 ```
- 
 ```shell
-sudo usermod -aG input username
+sudo usermod -aG input john
 ```
- 
 ```shell
-sudo usermod -aG uinput username
+sudo usermod -aG uinput john
 ```
- 
 ```shell
 sudo cp ~/dootfiles/99-kmonad.rules /lib/udev/rules.d/
 ```
+[firefox](https://github.com/mozilla-firefox/firefox)\
+[nextcloud-client](https://github.com/nextcloud/desktop)\
+[vlc](https://github.com/videolan/vlc)\
+[bluetui](https://github.com/pythops/bluetui)\
+[jellyfin-ffmpeg](https://github.com/jellyfin/jellyfin-ffmpeg)\
+[jrnl](https://jrnl.sh/en/stable/usage/)\
 
- 
-### yubico-authenticator setup
- 
+### from AUR
+[wl-kbptr](https://github.com/moverest/wl-kbptr)\
+[jellyfin-media-player](https://github.com/jellyfin/jellyfin-media-player)\
+[jellyfin-tui](https://github.com/dhonus/jellyfin-tui)\
+[caps-log](https://github.com/NikolaDucak/caps-log)\
+[yazi (see below)](https://github.com/sxyazi/yazi)
 ```shell
-sudo pacman -S pcsclite
+sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
 ```
- 
+[yubico-authenticator-bin (see below)](https://github.com/Yubico/yubioath-flutter)
 ```shell
-sudo pacman -S ccid
+sudo pacman -S pcsclite ccid
 ```
- 
 ```shell
 sudo systemctl enable pcscd.service
 ```
- 
 ```shell
 sudo systemctl start pcscd.service
 ```
- 
- 
 ## Omarchy post install
  
 [clean up script](https://github.com/maxart/omarchy-cleaner/)
