@@ -2,12 +2,12 @@
 ## additional packages
 ### walker->install->services
 [tailscale](https://github.com/tailscale/tailscale)\
-[bitwarden](https://github.com/bitwarden/clients)
+[bitwarden](https://github.com/bitwarden/clients)\
 Chromium Account
 ### walker->install->terminal
 [kitty](https://github.com/kovidgoyal/kitty)
 ### packages
-[kmonad (see below)](https://github.com/kmonad/kmonad?tab=readme-ov-file)\
+[kmonad (see below)](https://github.com/kmonad/kmonad?tab=readme-ov-file)
 ```shell
 sudo groupadd --system uinput
 ```
