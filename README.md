@@ -2,7 +2,8 @@
 ## additional packages
 ### walker->install->services
 [tailscale](https://github.com/tailscale/tailscale)\
-[bitwarden](https://github.com/bitwarden/clients)\
+[bitwarden](https://github.com/bitwarden/clients)
+Chromium Account
 ### walker->install->terminal
 [kitty](https://github.com/kovidgoyal/kitty)
 ### packages
@@ -25,8 +26,7 @@ sudo cp ~/dootfiles/99-kmonad.rules /lib/udev/rules.d/
 [vlc](https://github.com/videolan/vlc)\
 [bluetui](https://github.com/pythops/bluetui)\
 [jellyfin-ffmpeg](https://github.com/jellyfin/jellyfin-ffmpeg)\
-[jrnl](https://jrnl.sh/en/stable/usage/)\
-
+[jrnl](https://jrnl.sh/en/stable/usage/)
 ### AUR
 [wl-kbptr](https://github.com/moverest/wl-kbptr)\
 [jellyfin-media-player](https://github.com/jellyfin/jellyfin-media-player)\
@@ -47,12 +47,10 @@ sudo systemctl enable pcscd.service
 sudo systemctl start pcscd.service
 ```
 ## Omarchy post install
- 
 [clean up script](https://github.com/maxart/omarchy-cleaner/)
 ```shell
 curl -fsSL https://raw.githubusercontent.com/maxart/omarchy-cleaner/main/omarchy-cleaner.sh | bash
 ```
-
 ## Themes
 ```shell
 https://github.com/JJDizz1L/aetheria.git
