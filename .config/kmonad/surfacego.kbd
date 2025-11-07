@@ -45,6 +45,6 @@
   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX   XX
   XX   home pgdn pgup end  XX   +    7    8    9    *    XX   XX   XX
   bspc lft  down up   rght tab  .    @hr4 @hr5 @hr6 @hr0 del  ret
-  _    @pdt @ndt @ptb @ntb XX   -    1    2    3    /    XX
+  _    XX   XX   XX   XX   XX   -    1    2    3    /    XX
   _    _    _              XX                  _
 )
