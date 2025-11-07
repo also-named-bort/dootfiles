@@ -29,6 +29,7 @@ sudo cp ~/dootfiles/99-kmonad.rules /lib/udev/rules.d/
 [wl-kbptr](https://github.com/moverest/wl-kbptr)\
 [jellyfin-media-player](https://github.com/jellyfin/jellyfin-media-player)\
 [jellyfin-tui](https://github.com/dhonus/jellyfin-tui)\
+[caps-log](https://github.com/NikolaDucak/caps-log)\
 [yazi (see below)](https://github.com/sxyazi/yazi)
 ```shell
 sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
