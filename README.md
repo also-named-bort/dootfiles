@@ -1,10 +1,11 @@
 # dotfiles for omarchy
 ## additional packages
-### ** from walker->install->services
-### also using kitty
-[tailscale**](https://github.com/tailscale/tailscale)\
-[bitwarden**](https://github.com/bitwarden/clients)\
-[stow](https://www.gnu.org/software/stow/)\
+### walker->install->services
+[tailscale](https://github.com/tailscale/tailscale)\
+[bitwarden](https://github.com/bitwarden/clients)\
+### walker->install->terminal
+[kitty](https://github.com/kovidgoyal/kitty)
+### packages
 [kmonad (see below)](https://github.com/kmonad/kmonad?tab=readme-ov-file)\
 ```shell
 sudo groupadd --system uinput
@@ -18,6 +19,7 @@ sudo usermod -aG uinput john
 ```shell
 sudo cp ~/dootfiles/99-kmonad.rules /lib/udev/rules.d/
 ```
+[stow](https://www.gnu.org/software/stow/)\
 [firefox](https://github.com/mozilla-firefox/firefox)\
 [nextcloud-client](https://github.com/nextcloud/desktop)\
 [vlc](https://github.com/videolan/vlc)\
@@ -25,7 +27,7 @@ sudo cp ~/dootfiles/99-kmonad.rules /lib/udev/rules.d/
 [jellyfin-ffmpeg](https://github.com/jellyfin/jellyfin-ffmpeg)\
 [jrnl](https://jrnl.sh/en/stable/usage/)\
 
-### from AUR
+### AUR
 [wl-kbptr](https://github.com/moverest/wl-kbptr)\
 [jellyfin-media-player](https://github.com/jellyfin/jellyfin-media-player)\
 [jellyfin-tui](https://github.com/dhonus/jellyfin-tui)\
